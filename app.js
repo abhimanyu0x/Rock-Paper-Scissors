@@ -27,7 +27,7 @@ const showWinner=(userWin,userChoice,compChoice)=>{
     }
 };
 const playGame = (userChoice) =>{
-    //Generate computer choice
+    //Generate computer choice for the game
     const compChoice=genComputerChoice();
     if(userChoice===compChoice){
         drawGame();
